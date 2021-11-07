@@ -1,0 +1,19 @@
+[package]
+name = "tide-signed-url"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+http-types = "2.5"
+tide = { version = "0.16", default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+chrono = "0.4.19"
+aes = "0.7.5"
+base64 = "0.13.0"
+block-modes = "0.8.1"
+hex = "0.4.3"
+
+[dev-dependencies]
+async-std = { version = "1.6", features = ["attributes"] }
