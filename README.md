@@ -1,4 +1,4 @@
-# tide-singed-url
+# tide-signed-url
 :warning: **This is an experimental middleware now** 
 
 Serving URL query which is encrypted expiration date for the [Tide][] server framework.
